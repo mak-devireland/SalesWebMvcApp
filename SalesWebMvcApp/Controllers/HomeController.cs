@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SalesWebMvcApp.Models;
+using SalesWebMvcApp.Models.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
