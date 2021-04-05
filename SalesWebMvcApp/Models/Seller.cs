@@ -25,7 +25,7 @@ namespace SalesWebMvcApp.Models
 
         [Required(ErrorMessage = "{0} field can't be empty")]
         [Display(Name = "Base Salary")]
-        [DisplayFormat(DataFormatString = "{0:F2}")]
+        [DisplayFormat(DataFormatString = "€ {0:F2}")]
         public double BaseSalary { get; set; }
         public Department Department { get; set; }
 
